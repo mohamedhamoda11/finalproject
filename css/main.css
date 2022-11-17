@@ -9,25 +9,40 @@
     src: url(static/Montserrat-BoldItalic.ttf);
 }
 /*for desktop*/
-@media only screen and (min-width: 1180px ) {
+@media only screen and (min-width: 992px ) {
     body{
-        overflow: hidden;
+        overflow: hidden !important;
     }
 }
 
 /*for mobile*/
-@media only screen and (max-width: 1180px ) {
+@media only screen and (max-width: 992px ) {
+    /* media for login page*/
     .facecolor , .google{
         font-size: 12px !important;
       }
     .logo{
         margin-top: 15% !important;
-        font-size: 60px;
+        font-size: 60px !important;
+        padding-bottom: 10px !important;
+    }
+    .line{
+        font-size: 52px!important;
     }
     .form-signin{
-        margin-left: 12px !important ;
+        width: auto !important;
+        margin-left: auto !important ;
+    }
+    /*media for create account page*/
+    .create-input{
+        width: 250px !important;
+        margin: auto !important;
+    }
+    .form-signin{
+        width: auto !important;
     }
   }
+ 
   body{
     font-family: "1";
   }
