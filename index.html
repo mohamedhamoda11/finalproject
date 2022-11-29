@@ -28,8 +28,9 @@
             </div>
             <div>
             <p id="password" name="password" class="text-start email fw-bold mt-2">Password</p>
-            <input type="password" class=" input-form fs-4 place mb-2" placeholder="" >
-            <i class="fa-solid fa-eye-slash  eyeslash"></i>
+            <input id="field-password" type="password" class=" input-form fs-4 place-password mb-2" placeholder="" >
+            <i class="fa fa-eye eyeslash" id="eye" onclick="showPassword()"></i> 
+            <i id="eye-slash" class="fa-solid fa-eye-slash  eyeslash" onclick="showPassword()"></i>
             </div>
             <div><a class="text-start forget-password " href="forget password.html" target="_self">forget password?</a></div>
             <button class="bg-danger text-white fw-bold fs-5 my-2 b1 p-2  ">Sign In</button>
