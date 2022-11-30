@@ -113,6 +113,7 @@
     border-radius: 5px;
 }
 .email{
+    display: block;
     margin-left: 50px;
 }
 /*input*/
@@ -125,11 +126,11 @@
     border-radius: 5px;
 
 }
-.place-password{
+.password-div {
     margin: auto;
     display: flex;
     position: relative;
-    width: 340px;
+    width: 340px !important;
     height: 48px;
     font-size: 12px;
     border: none;
@@ -138,10 +139,11 @@
 .eyeslash{
     position: absolute;
     text-align: right;
-    margin-left: 140px;
-    margin-top: -40px;
+    margin-left: 300px;
+    margin-top: 20px;
     color: gray;
     cursor: pointer;
+    z-index: 333;
 }
 .form-signin .email #eye{
     display: none;
@@ -184,9 +186,11 @@
     margin-bottom: -2px;
     margin-left: 25px;
 }
-.create-input{
+.password-create{
     display: flex;
     position: relative;
+}
+.create-input{
     margin: auto;
     width: 350px;
     height: 35px;
@@ -203,8 +207,8 @@
 .eyeslash-create{
     position: absolute;
     color: gray;
-    margin-left: 240px;
-    margin-top: -25px;
+    margin-left: 340px;
+    margin-top: 12px;
     cursor: pointer;
 }
 .small-logo{
@@ -254,5 +258,9 @@
         height: 35px;
         font-size: 14px;
     
+    }
+    .eyeslash-create{
+        margin-left: 275px;
+        margin-top: 12px;
     }
   }
